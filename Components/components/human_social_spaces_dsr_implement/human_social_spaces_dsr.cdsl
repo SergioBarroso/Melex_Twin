@@ -1,0 +1,15 @@
+import "HumanToDSR.idsl";
+
+Component human_social_spaces_dsr
+{
+    Communications
+    {
+        
+        implements HumanToDSR;
+       
+    };
+    language python;
+    options dsr;
+    
+};
+
